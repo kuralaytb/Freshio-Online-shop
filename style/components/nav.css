@@ -1,0 +1,44 @@
+.nav, .nav__left, .nav__right{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    background-color: #0a472e;
+    padding: 20px;
+    color: #fff;
+}
+.nav i{
+    color: #fff;
+}
+.nav a{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 14px;
+    transition: .4s;
+    font-weight: 700;
+}
+.nav__left i{
+    margin-right: 20px;
+}
+.nav__left{
+    margin-right: 50px;
+}
+.nav__right{
+    border-left: 1px solid #aaa;
+    padding-left: 50px;
+}
+.nav__right a:hover{
+    color: #bac34e;
+}
+.nav__right a:hover i{
+    color: #bac34e;
+}
+.nav__right i{
+    transition: .4s;
+}
+
+@media(max-width:1000px){
+    .nav__right{
+        display: none;
+    }
+}
